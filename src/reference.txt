@@ -1,0 +1,16 @@
+// A creates match starts polling
+// B joins match
+// next poll:
+//  - game started
+//  - each draw x cards
+//  - round 0 starts
+//  - each gets stamina
+// B puts down cards
+// A puts down cards
+// polling, no event
+// A ready
+// B ready
+// next poll:
+//   - reveals cards
+//   - show resolution event (possibly contain game over)
+//   - next phase (if both exhausted, next turn)

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package fighters.v1;
+
+message SyncRequest {
+}
+
+message SyncResponse {
+}
+
+service InGameService {
+	rpc Sync(SyncRequest) returns (SyncResponse);
+}
+
